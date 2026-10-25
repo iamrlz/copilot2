@@ -8,6 +8,10 @@ Open `index.html` directly in your browser. No installation or build step is req
 
 Alternatively, if Python 3 is available, run `python3 -m http.server 8000 --bind 127.0.0.1` from the repository directory, then visit <http://127.0.0.1:8000>. Press Ctrl+C to stop the preview server.
 
+## Publish with GitHub Pages
+
+The `Deploy to GitHub Pages` workflow publishes the site from the repository root whenever changes are pushed to `main`. To enable it, open the repository's **Settings → Pages**, select **GitHub Actions** as the build and deployment source, and push or merge a change to `main`. You can also start a deployment manually from the **Actions** tab.
+
 ## Make it yours
 
 - Edit the student introduction, skills, and sample project descriptions in `index.html`.
