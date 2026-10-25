@@ -33,7 +33,7 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 .nav-links .nav-contact { padding: 9px 17px; border: 1px solid #a391f44d; border-radius: 8px; color: #d8ceff; }
 .nav-contact span { margin-left: 12px; }
 .menu-toggle { background: transparent; color: var(--text); border: 1px solid var(--border); border-radius: 7px; padding: 6px 12px; }
-.hero { min-height: 690px; padding-top: 83px; padding-bottom: 115px; display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 50px; position: relative; }
+.hero { min-height: 690px; padding-top: 83px; padding-bottom: 115px; display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 50px; position: relative; overflow: clip; }
 .availability { display: inline-flex; align-items: center; gap: 9px; border: 1px solid #6bcda32b; background: #6bcda309; border-radius: 30px; padding: 5px 12px; color: #a0d6c0; font-size: 11px; margin: 0 0 27px; }
 .availability > span { width: 6px; height: 6px; border-radius: 50%; background: #7dd6ae; box-shadow: 0 0 10px #7dd6ae60; }
 .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 2.1px; color: var(--purple); margin: 0 0 16px; }
