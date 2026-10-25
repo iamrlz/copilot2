@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="A university student's portfolio of thoughtful design, creative code, and projects in progress.">
+  <title>Student Portfolio — Ideas into Impact</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container navigation" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Portfolio home"><span class="brand-icon" aria-hidden="true">&lt;/&gt;</span> portfolio<span class="accent">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home" aria-current="location">Home</a>
+        <a href="#about">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="availability"><span aria-hidden="true"></span> Open to learning &amp; opportunities</p>
+        <p class="eyebrow">HELLO, WORLD. I'M A STUDENT &amp; BUILDER.</p>
+        <h1 id="hero-title">Curious mind.<br>Creative code.<br><span class="gradient-text">Real possibilities.</span></h1>
+        <p class="hero-description">A university student exploring the space where technology meets creativity. Turning everyday problems into thoughtful digital experiences, one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#about">A little about me <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="small-stars" aria-hidden="true">✦</span> Always learning. Always building. Always curious.</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-label label-design"><span>✧</span> A little creativity</div>
+        <div class="code-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>about-me.js</span><span>⌘</span></div>
+          <div class="code-body">
+            <p><span class="code-purple">const</span> <span class="code-blue">student</span> = {</p>
+            <p class="indent">mindset: <span class="code-green">'curious'</span>,</p>
+            <p class="indent">fuel: [<span class="code-green">'ideas'</span>, <span class="code-green">'coffee'</span>],</p>
+            <p class="indent">passion: <span class="code-green">'building things'</span>,</p>
+            <p class="indent">learning: <span class="code-purple">true</span>,</p>
+            <p class="indent">nextChapter: <span class="code-green">'in progress…'</span></p>
+            <p>};</p>
+            <p class="code-comment">// Small steps. Meaningful impact.</p>
+            <p><span class="code-blue">createSomething</span>(student);<span class="cursor">▍</span></p>
+          </div>
+        </div>
+        <div class="floating-label label-code"><span>⚡</span> A lot of possibility</div>
+        <div class="art-spark spark-one">✦</div><div class="art-spark spark-two">+</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> GET TO KNOW ME</a>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2 id="about-title">More than just<br><span class="muted-heading">lines of code.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I'm a university student with a love for solving problems and making things that feel good to use.</p>
+          <p>My journey is a mix of coursework, late-night experiments, and plenty of “what if?” moments. I enjoy connecting what I learn in the classroom to projects that make everyday life a little simpler.</p>
+          <p>When I'm away from the keyboard, you'll find me sketching ideas, exploring new places, or getting inspired by the people around me.</p>
+          <div class="interest-tags"><span>⌘ Problem solver</span><span>✧ Creative thinker</span><span>↗ Lifelong learner</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / MY TOOLKIT</p><h2 id="skills-title">Learning. Building. <span class="muted-heading">Growing.</span></h2></div><p>The tools I reach for.<br>The skills I keep sharpening.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon blue" aria-hidden="true">&lt;/&gt;</span><h3>Web development</h3><p>Bringing ideas to life in the browser with clean, responsive interfaces.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></article>
+        <article class="skill-card"><span class="skill-icon purple" aria-hidden="true">◇</span><h3>Design &amp; experience</h3><p>Making digital spaces intuitive, accessible, and a pleasure to explore.</p><ul class="tags"><li>UI / UX</li><li>Wireframing</li><li>Accessibility</li></ul></article>
+        <article class="skill-card"><span class="skill-icon cyan" aria-hidden="true">⌘</span><h3>Tools &amp; teamwork</h3><p>Breaking down problems, sharing ideas, and building better together.</p><ul class="tags"><li>Git</li><li>Python</li><li>Collaboration</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2 id="projects-title">Small projects. <span class="muted-heading">Big learning.</span></h2></div><p>A few ideas turned into experiments.<br>Illustrative projects, ready to make your own.</p></div>
+      <div class="project-filters" role="group" aria-label="Filter projects" hidden>
+        <button class="filter active" type="button" data-filter="all" aria-pressed="true">All projects</button>
+        <button class="filter" type="button" data-filter="web" aria-pressed="false">Web development</button>
+        <button class="filter" type="button" data-filter="design" aria-pressed="false">Design</button>
+      </div>
+      <p class="sr-only" id="project-status" role="status" aria-live="polite"></p>
+      <div class="projects-grid">
+        <article class="project-card" data-category="web">
+          <div class="project-preview preview-planner" aria-hidden="true">
+            <div class="mini-app planner-app"><div class="mini-sidebar"><b>◈</b><span></span><span></span><span></span></div><div class="mini-content"><small>YOUR SPACE TO FOCUS</small><strong>A little more organized.</strong><div class="mini-columns"><div><i></i><i></i><i></i></div><div><i></i><i></i></div><div><i></i><i></i><i></i></div></div></div></div>
+          </div>
+          <div class="project-content"><p class="project-type">WEB DEVELOPMENT</p><h3>StudySpace</h3><p>A calmer way to organize assignments, plan study sessions, and stay on top of university life.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><details><summary>Explore the concept <span aria-hidden="true">↗</span></summary><p>Concept: a student dashboard with task lists and a weekly planner. A chance to practice DOM updates, responsive layouts, and accessible controls. This is a sample project, not a live app.</p></details></div>
+        </article>
+        <article class="project-card" data-category="design">
+          <div class="project-preview preview-campus" aria-hidden="true"><div class="campus-orbit"></div><div class="phone-mockup"><div class="phone-notch"></div><small>GOOD THINGS HAPPEN HERE</small><strong>Find your<br>people<span>.</span></strong><div class="event-illustration">✳</div><div class="phone-event"><b>Creative meetup</b><span>Explore something new ↗</span></div></div><span class="campus-star">✳</span></div>
+          <div class="project-content"><p class="project-type">UI / UX DESIGN</p><h3>CampusConnect</h3><p>Reimagining how students discover campus events, find communities, and get involved.</p><ul class="tags"><li>UI / UX</li><li>Prototyping</li><li>Mobile design</li></ul><details><summary>Explore the concept <span aria-hidden="true">↗</span></summary><p>Concept: an event discovery experience with clear categories and easy-to-scan event cards. A design exercise in visual hierarchy and mobile navigation, illustrated here with a CSS mockup.</p></details></div>
+        </article>
+        <article class="project-card" data-category="web">
+          <div class="project-preview preview-weather" aria-hidden="true"><div class="weather-widget"><div class="weather-top"><span>THE DAILY OUTLOOK</span><span>↗</span></div><div class="weather-main"><div><small>A brighter kind of day</small><strong>24°</strong><span>Mostly sunny</span></div><div class="weather-sun"></div></div><div class="weather-week"><span>MON<b>☀</b>24°</span><span>TUE<b>☁</b>21°</span><span>WED<b>☀</b>25°</span><span>THU<b>☁</b>22°</span></div></div></div>
+          <div class="project-content"><p class="project-type">WEB DEVELOPMENT</p><h3>Daily Outlook</h3><p>A minimal weather dashboard exploring how everyday information can feel a little more delightful.</p><ul class="tags"><li>JavaScript</li><li>CSS</li><li>Responsive UI</li></ul><details><summary>Explore the concept <span aria-hidden="true">↗</span></summary><p>Concept: a readable weather interface with a daily summary and short forecast. The preview uses illustrative weather data; it does not request your location or connect to a weather service.</p></details></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel"><span class="contact-spark" aria-hidden="true">✦</span><p class="eyebrow">04 / WHAT'S NEXT?</p><h2 id="contact-title">Great things start with<br><span class="gradient-text">a simple hello.</span></h2><p>Have an idea, a learning opportunity, or a project in mind?<br>I'm always excited to connect with fellow curious minds.</p><div class="contact-placeholder"><span aria-hidden="true">↗</span> Your preferred public contact link goes here</div><p class="privacy-note">A space for connection, not data collection. No forms, tracking, or personal information requested.</p></div>
+    </section>
+  </main>
+  <footer class="container footer"><a class="brand" href="#home">portfolio<span class="accent">.</span></a><p>Made with curiosity &amp; a little caffeine.</p><a href="#home">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
